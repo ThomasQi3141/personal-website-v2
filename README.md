@@ -1,6 +1,6 @@
 # Personal Website
 
-Source code of my personal website :D
+Source code of my (new) personal website :D
 
 Built using React from and deployed using AWS Amplify (until I figure out how to host stuff using a Raspberry PI at least)
 
