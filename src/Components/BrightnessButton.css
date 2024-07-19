@@ -1,0 +1,15 @@
+.brightness-button {
+  background: none; /* Ensure the button itself has no background */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer */
+  display: flex; /* Align items */
+  align-items: center;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.brightness-icon {
+  width: 2rem; /* Set width */
+  height: 2rem; /* Set height */
+  background: none; /* Ensure the SVG has no background */
+}
