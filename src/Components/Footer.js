@@ -7,7 +7,7 @@ const Footer = styled.footer`
   position: relative;
   width: 100%;
   bottom: 0;
-  margin-top: 5rem;
+  font-size: 1rem;
 `;
 
 export default Footer;

@@ -3,11 +3,8 @@ import SunIcon from "../assets/sun.svg";
 import MoonIcon from "../assets/moon.svg";
 import "./BrightnessButton.css";
 
-const BrightnessButton = ({ changeColor }) => {
-  const [darkMode, setDarkMode] = useState(true);
-
+const BrightnessButton = ({ changeColor, darkMode }) => {
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
     changeColor(!darkMode);
   };
 
